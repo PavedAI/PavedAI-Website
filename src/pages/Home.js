@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import './About.css';
+import './Home.css';
 import { Link } from 'react-router-dom';
 
 // reference: https://aurora.tech/
@@ -17,7 +17,7 @@ function Home(){
         <div className='second-container'>
             <div className='sub-container'>
             <h2>
-                The Problem
+                The problem
             </h2>
             <p>
             Concrete around the world is crumbling and cracking. Experts say the estimated cost to repair and improve America's crumbling roads, sidewalks, and bridges is about $200 billion
@@ -35,7 +35,7 @@ function Home(){
 
         <div className='middle-container'>
             <h1>
-                So we tried our best to solve the issue...
+                We are determined to solve this issue.
             </h1>
         </div>
 
@@ -44,12 +44,12 @@ function Home(){
             <img
                 src={require("../assets/components.jpg")}
                 alt="Logo"
-                style={{ width: "60%", height: 'auto'}} // Adjust the width as needed
+                style={{ width: "70%", height: 'auto'}} // Adjust the width as needed
             />
             </div>
             <div className='sub-container'>
             <h2>
-                How We're Fixing It
+                How we're fixing it
             </h2>
             <p>
             To fix the world's concrete, we're using the power of robotics and computer vision to create a compact, efficient, and affordable robot. Our current prototype
@@ -57,7 +57,37 @@ function Home(){
             cracks of all shapes and sizes.
             </p>
             </div>
-        </div>       
+        </div>  
+
+
+        <div>
+        <img
+            src={require("../assets/HomePanel4.jpg")}
+            alt="Components"
+            style={{ width: "100%", height: 'auto'}} // Adjust the width as needed
+        />
+        </div>
+
+        <div className='bottom-container'>
+            <h2>
+                We're also committed to keeping our planet green.
+            </h2>
+            <p>
+                In addition to trying to fix our roads, bridges, and sidewalks, our team is determined to maintain the highest standards
+                of eco-friendliness in our products. We are currently accomplishing this by using non-toxic crack fillers and not interfering with bugs, plants, and other creatures.
+                As our team works to expand our product line, we will continue to keep our planet's safety in mind.
+            </p>
+
+            <p>
+                This goal is only a single part of our broader mission. Go to our 'About' page to learn more about our values and meet our team.
+            </p>
+        </div>
+        
+        <div className='as-scrollbar'>
+            <div className='as-scrollbar-handle'>
+                <div></div>
+            </div>
+        </div>
         </div>
         
     )

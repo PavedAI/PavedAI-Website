@@ -34,11 +34,10 @@ video {
 
   .second-container{
     background: rgb(26, 23, 23);
-    height: 45vh;
+    height: 55vh;
     width: 100%;
     display: flex;
     flex-direction: row;
-    
   }
 
   .middle-container{
@@ -49,20 +48,24 @@ video {
     height: 50vh;
     width: 100%;
     text-align: center;
+    padding-bottom: 150px;
   }
 
   .middle-container > h1 {
     color: #21c951;
     font-size: 55px;
     font-family: 'OCR A';
-    
+  }
 
+  .color-transition{
+    /* background-image: url('../assets/HomePanel4.jpg'); */
+    height: 20vh;
   }
 
 
   .sub-container {
     background: rgb(26, 23, 23);
-    height: 50vh;
+    height: 55vh;
     color: #21c951;
     width: 40%;
     text-align: center;
@@ -70,6 +73,8 @@ video {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   .sub-container img {
@@ -81,7 +86,7 @@ video {
     font-size: 40px;
     font-family: 'OCR A';
     padding-bottom: 30px;
-    padding-top: 80px;
+    padding-top: 30px;
   }
   
   .sub-container > p {
@@ -91,6 +96,38 @@ video {
     font-family: 'OCR A';
     line-height: 1.5;
   }
+
+  .bottom-container{
+    background: rgb(33, 201, 81);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 45vh;
+    width: 100%;
+    text-align: center;
+    margin-top: -10px;
+    /* padding-bottom: 150px; */
+  }
+
+  .bottom-container > h2 {
+    color: rgb(26, 23, 23);
+    font-size: 40px;
+    font-family: 'OCR A';
+    padding-bottom: 30px;
+    padding-top: 50px;
+  }
+  
+  .bottom-container > p {
+    margin-top: 8px;
+    color: rgb(26, 23, 23);
+    font-size: 20px;
+    font-family: 'OCR A';
+    line-height: 1.5;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 30px;
+  }
+
   
   .main-btns {
     margin-top: 32px;
@@ -104,29 +141,3 @@ video {
     margin-left: 4px;
   }
   
-  @media screen and (max-width: 960px) {
-    .main-container > h1 {
-      font-size: 70px;
-      margin-top: -150px;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .hero-container > h1 {
-      font-size: 50px;
-      margin-top: -100px;
-    }
-  
-    .hero-container > p {
-      font-size: 30px;
-    }
-  
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
-    }
-  
-    .btn {
-      width: 100%;
-    }
-  }
