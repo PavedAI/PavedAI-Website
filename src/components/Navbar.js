@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
@@ -29,7 +28,11 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            PavedAI
+          <img
+        src={require("../assets/PavedAILogo.jpg")}
+        alt="Logo"
+        style={{ width: "20%", height: "auto" }} // Adjust the width as needed
+      />
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -47,7 +50,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                About Us
+                About
               </Link>
             </li>
             <li className='nav-item'>
@@ -64,13 +67,11 @@ function Navbar() {
               <Link
                 to='/invest'
                 className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
+                onClick={closeMobileMenu}>
                 Invest
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
       </nav>
     </>
