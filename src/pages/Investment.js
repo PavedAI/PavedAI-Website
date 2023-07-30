@@ -1,7 +1,9 @@
 import React from 'react';
 import './Investment.css';
+import { ContactUs } from '../components/Contact';
 
 function Investment(){
+
     return(
         <div>
         <div className='first-container-investment'>
@@ -27,6 +29,22 @@ function Investment(){
                     Come join us as we reinforce our society as a whole. Together, we'll achieve great things.
 
                 </p>
+            </div>
+
+            <div className='info-subcontainer'>
+                <h2>Get into contact:</h2>
+                {/* <div className='contact-form'>
+                    <form ref={form} onsubmit={sendEmail}>
+                        <input type='text' name="user_name" id='name' placeholder='Your Name' required />
+                        <input type='text' id='subject' placeholder='Subject' required />
+                        <input type='email' name="user_email" id='email' placeholder='Your Email' required />
+                        <textarea id='message' name="message" rows='5' placeholder="Let's change the future together."></textarea>
+                        <button type='submit' id='submit'>Send</button>
+                    </form>
+                    
+                </div> */}
+                <ContactUs />
+
             </div>
         </div>
         </div>
