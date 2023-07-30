@@ -38,18 +38,19 @@ function About(){
                     />
                     <div className='rounded-subcontainer' style={{marginLeft: '35px'}}>
                         <h2>Vardhan Agnihotri</h2>
-                        <p>Co-founder & Software Lead</p>
+                        <p>- Co-founder & Software Lead</p>
+                        <p>- Head of Business Operations</p>
                     </div>
                 </div>
                 <div className='rounded-container'>
                     <img
                     src={require("../assets/vivek.jpg")}
                     alt="Logo"
-                    style={{ width: '28%', height: '75%', margin: '25px'}} // Adjust the width as needed
+                    style={{ width: '27%', height: '75%', margin: '25px'}} // Adjust the width as needed
                     />
                     <div className='rounded-subcontainer'>
                         <h2>Vivek Patel</h2>
-                        <p>Co-founder & Hardware Lead</p>
+                        <p>- Co-founder & Hardware Lead</p>
                     </div>
                 </div>
             </div>

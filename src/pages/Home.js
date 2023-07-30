@@ -62,7 +62,7 @@ function Home(){
         <div>
         <img
             src={require("../assets/HomePanel4.jpg")}
-            alt="Components"
+            alt="HomePanel4"
             style={{ width: "100%", height: 'auto'}} // Adjust the width as needed
         />
         </div>

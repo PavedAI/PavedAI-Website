@@ -1,0 +1,58 @@
+.first-container-investment {
+    background: rgb(26, 23, 23);
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    object-fit: contain;
+}
+
+.first-container-investment > h1 {
+    color: rgb(33, 201, 81);
+    font-size: 60px;
+    font-family: 'OCR A';
+    margin-top: 20px;
+}
+
+.info-panels {
+    background: rgb(26, 23, 23);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    object-fit: contain;
+    margin-top: -10px;
+}
+
+.info-subcontainer {
+    background: rgb(26, 23, 23);
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    object-fit: contain;
+    padding-left: 100px;
+}
+
+.info-subcontainer > h2 {
+    color: rgb(33, 201, 81);
+    font-size: 50px;
+    font-family: 'OCR A';
+    margin-top: 20px;
+}
+
+.info-subcontainer > p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'OCR A';
+    margin-top: 20px;
+    margin-bottom: 80px;
+    line-height: 1.5;
+    padding-right: 30px;
+}
