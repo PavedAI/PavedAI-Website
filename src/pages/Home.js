@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import './Home.css';
-import { Link } from 'react-router-dom';
 
 // reference: https://aurora.tech/
 
@@ -35,7 +34,7 @@ function Home(){
 
         <div className='middle-container'>
             <h1>
-                We are determined to solve this issue.
+                PavedAI is the solution.
             </h1>
         </div>
 
@@ -83,11 +82,6 @@ function Home(){
             </p>
         </div>
         
-        <div className='as-scrollbar'>
-            <div className='as-scrollbar-handle'>
-                <div></div>
-            </div>
-        </div>
         </div>
         
     )

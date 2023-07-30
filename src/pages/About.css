@@ -1,3 +1,5 @@
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+
 .first-container-about {
     background: rgb(33, 201, 81);
     height: 60vh;
@@ -76,16 +78,17 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    margin-left: 10px;  
 }
 
-.rounded-subcontainer > h2{
+.rounded-subcontainer > h2 {
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'OCR A';
     padding-bottom: 10px;
 }
 
-.rounded-subcontainer > p{
+.rounded-subcontainer > p {
     color: rgb(255, 255, 255);
     font-size: 15px;
     font-family: 'OCR A';
@@ -94,6 +97,25 @@
 
 .rounded-container img{
     border-radius: 25px;
-    width: 200px;
-    height: 200px;
+}
+
+/* ::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent ;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(166, 26%, 17%);
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(240, 6%, 10% / 0.5);
+} */
+
+
+
 }

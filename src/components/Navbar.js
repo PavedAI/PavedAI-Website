@@ -4,24 +4,10 @@ import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener('resize', showButton);
 
   return (
     <>
@@ -29,7 +15,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
           <img
-        src={require("../assets/PavedAILogo.jpg")}
+        src={require("../assets/PavedAILogo.png")}
         alt="Logo"
         style={{ width: "20%", height: "auto" }} // Adjust the width as needed
       />
@@ -66,7 +52,7 @@ function Navbar() {
             <li>
               <Link
                 to='/invest'
-                className='nav-links-mobile'
+                className='nav-links'
                 onClick={closeMobileMenu}>
                 Invest
               </Link>

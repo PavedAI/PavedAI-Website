@@ -8,7 +8,7 @@ function About(){
         <div>
             <div className='first-container-about'>
                 <h1>
-                    We are on a mission to fix global infrastructure.
+                    We're on a mission to fix global infrastructure.
                 </h1>
 
                 <p>
@@ -31,20 +31,31 @@ function About(){
 
             <div className='team-container'>
                 <div className='rounded-container'>
-                    <h2>test</h2>
-                    
+                    <img
+                    src={require("../assets/vardhan.jpg")}
+                    alt="Logo"
+                    style={{ width: '20%', height: '80%', margin: '20px', marginLeft: '25px'}} // Adjust the width as needed
+                    />
+                    <div className='rounded-subcontainer' style={{marginLeft: '35px'}}>
+                        <h2>Vardhan Agnihotri</h2>
+                        <p>Co-founder & Software Lead</p>
+                    </div>
                 </div>
                 <div className='rounded-container'>
                     <img
                     src={require("../assets/vivek.jpg")}
                     alt="Logo"
-                    style={{ width: "35%", height: '40'}} // Adjust the width as needed
+                    style={{ width: '28%', height: '75%', margin: '25px'}} // Adjust the width as needed
                     />
                     <div className='rounded-subcontainer'>
                         <h2>Vivek Patel</h2>
-                        <p>Co-founder and Hardware Lead</p>
+                        <p>Co-founder & Hardware Lead</p>
                     </div>
                 </div>
+            </div>
+
+            <div className='custom-scrollbar'>
+
             </div>
             
         </div>
