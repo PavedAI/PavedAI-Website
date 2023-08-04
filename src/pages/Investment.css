@@ -45,6 +45,7 @@
     font-size: 50px;
     font-family: 'OCR A';
     margin-top: -80px;
+    padding-right: 20px;
 }
 
 .info-subcontainer > p {
@@ -142,5 +143,5 @@
     justify-content: center;
     flex-direction: row;
     padding-left: -1px;
-    margin-bottom: 155px;
+    margin-bottom: 200px;
 }

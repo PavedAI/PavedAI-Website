@@ -68,6 +68,7 @@
     justify-content: center;
     flex-direction: row;
     padding: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -83,5 +84,5 @@
     justify-content: center;
     flex-direction: row;
     padding-left: -1px;
-    margin-bottom: 155px;
+    margin-bottom: 195px;
 }

@@ -128,16 +128,41 @@ video {
     margin-bottom: 30px;
   }
 
-  
-  .main-btns {
-    margin-top: 32px;
+  @media screen and (min-width: 1921px) {
+    .first-container {
+      /* Adjust the height for bigger screens */
+      height: 70vh;
+    }
+    
+    .second-container {
+      /* Adjust the height for bigger screens */
+      height: 60vh;
+    }
+    
+    .middle-container {
+      /* Adjust the height for bigger screens */
+      height: 60vh;
+    } 
+    
+    .color-transition {
+      /* Adjust the height for bigger screens */
+      height: 30vh;
+    }
+    
+    .sub-container {
+      /* Adjust the width for bigger screens */
+      width: 35%;
+    }
+    
+    .bottom-container {
+      /* Adjust the height for bigger screens */
+      height: 60vh;
+    }
   }
+
   
-  .main-btns .btn {
-    margin: 6px;
-  }
   
-  .fa-play-circle {
-    margin-left: 4px;
-  }
+  
+  
+  
   

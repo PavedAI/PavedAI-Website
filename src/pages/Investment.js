@@ -13,7 +13,7 @@ function Investment(){
         </div>
 
         <img
-            src={require("../assets/InvestmentPanel2.jpg")}
+            src={require("../assets/InvestmentPanel2.png")}
             alt="Logo"
             style={{ width: "100%", height: 'auto', marginTop: '-80px'}} // Adjust the width as needed
         />

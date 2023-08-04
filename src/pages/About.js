@@ -34,7 +34,7 @@ function About(){
                     <img
                     src={require("../assets/vardhan.jpg")}
                     alt="Logo"
-                    style={{ width: '20%', height: '80%', margin: '20px', marginLeft: '25px'}} // Adjust the width as needed
+                    style={{ width: '110px', height: '80%', margin: '20px', marginLeft: '25px'}} // Adjust the width as needed
                     />
                     <div className='rounded-subcontainer' style={{marginLeft: '35px'}}>
                         <h2>Vardhan Agnihotri</h2>
@@ -46,7 +46,7 @@ function About(){
                     <img
                     src={require("../assets/vivek.jpg")}
                     alt="Logo"
-                    style={{ width: '27%', height: '75%', margin: '25px'}} // Adjust the width as needed
+                    style={{ width: '150px', height: 'auto', margin: '25px'}} // Adjust the width as needed
                     />
                     <div className='rounded-subcontainer'>
                         <h2>Vivek Patel</h2>
