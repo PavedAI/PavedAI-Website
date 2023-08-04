@@ -1,28 +1,128 @@
 .first-container-products {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
     background: rgb(26, 23, 23);
-    height: 60vh;
+    height: 35vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     object-fit: contain;
-}
-
-.first-container-products > h1 {
-    color: rgb(33, 201, 81);
+  }
+  
+  .first-container-products > h1 {
+    color: #21c951;
     font-size: 60px;
     font-family: 'OCR A';
-    margin-top: -25px;
-}
+    margin-top: 60px;
+  }
 
-.first-container-products > p {
-    color: rgb(33, 201, 81);
+  .first-container-products > p {
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: 'OCR A';
-    margin-top: 30px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-top: 20px;
+  }
+
+
+  .steps-container{
+    background: rgb(26, 23, 23);
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .middle-steps-container{
+    background: rgb(26, 23, 23);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: middle;
+    margin-top: -10px;
+  }
+
+  .middle-steps-container > h2 {
+    color: #21c951;
+    font-size: 40px;
+    font-family: 'OCR A';
+    margin-left: 350px;
+    margin-bottom: 30px;
+  }
+
+  .steps-container-US {
+    background: rgb(26, 23, 23);
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .steps-container img{
+    border-radius: 25px;
+  }
+
+
+  .steps-content {
+    background: rgb(26, 23, 23);
+    height: 20vh;
+    color: #21c951;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 100px;
+  }
+
+  .steps-content > h2 {
+    color: #21c951;
+    font-size: 40px;
+    font-family: 'OCR A';
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  
+  .steps-content > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'OCR A';
     line-height: 1.5;
-    padding-bottom: 80px;
-}
+    margin-bottom: 20px;
+  }
+
+  .steps-content-US {
+    background: rgb(26, 23, 23);
+    height: 20vh;
+    color: #21c951;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 100px;
+  }
+
+  .steps-content-US > h2 {
+    color: #21c951;
+    font-size: 40px;
+    font-family: 'OCR A';
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  
+  .steps-content-US > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'OCR A';
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
