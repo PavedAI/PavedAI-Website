@@ -33,6 +33,12 @@
     flex-direction: row;
   }
 
+  .steps-container > h2{
+    color: #21c951;
+    font-size: 40px;
+    font-family: 'OCR A';
+  }
+
 
   .middle-steps-container{
     background: rgb(26, 23, 23);
@@ -42,6 +48,7 @@
     flex-direction: row;
     text-align: middle;
     margin-top: -10px;
+    padding-left: 100px;
   }
 
   .middle-steps-container > h2 {
@@ -50,6 +57,7 @@
     font-family: 'OCR A';
     margin-left: 350px;
     margin-bottom: 30px;
+    margin-top: -15px;
   }
 
   .steps-container-US {
@@ -105,6 +113,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
     margin-left: 500px;
     margin-right: 100px;
   }
@@ -113,9 +122,17 @@
     color: #21c951;
     font-size: 40px;
     font-family: 'OCR A';
-    padding-bottom: 30px;
     padding-top: 20px;
   }
+
+  .steps-content-US > h3 {
+    color: #21c951;
+    font-size: 40px;
+    font-family: 'OCR A';
+    padding-top: 20px;
+    margin-bottom: -10px;
+  }
+  
   
   .steps-content-US > p {
     margin-top: 8px;
@@ -124,5 +141,55 @@
     font-family: 'OCR A';
     line-height: 1.5;
     margin-bottom: 20px;
+    padding-top: 30px;
+  }
+
+
+  .bottom-container-products {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    background: rgb(26, 23, 23);
+    height: 40vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    object-fit: contain;
+
+  }
+  
+  .bottom-container-products > h1 {
+    color: #21c951;
+    font-size: 40px;
+    font-family: 'OCR A';
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  .bottom-container-products > p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'OCR A';
+  }
+
+
+  .footer-products {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    background: rgb(26, 23, 23);
+    height: 20vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    object-fit: contain;
+    margin-top: -10px;
+  }
+
+  .footer-products > h4 {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    color: rgb(33, 201, 81);
+    font-size: 20px;
+    font-family: 'OCR A';
+    padding-top: 90px;
   }
 

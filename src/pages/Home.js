@@ -13,6 +13,12 @@ function Home(){
             </h1>
         </div>
 
+        <img
+            src={require("../assets/HomePanel2.jpg")}
+            alt="Logo"
+            style={{ width: "100%", height: 'auto', marginBottom: '-10px', marginTop: '-45px'}} // Adjust the width as needed
+        />
+
         <div className='second-container'>
             <div className='sub-container'>
             <h2>

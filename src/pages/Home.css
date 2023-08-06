@@ -41,20 +41,28 @@ video {
   }
 
   .middle-container{
-    background: rgb(26, 23, 23);
+    /* background: rgb(26, 23, 23); */
+    background-image: url('../assets/HomeBackground3.jpg');
+    background-size: 110% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vh;
+    margin-top: -60px;
+
     width: 100%;
     text-align: center;
-    padding-bottom: 150px;
+    padding-left: -50px;
   }
 
   .middle-container > h1 {
+
     color: #21c951;
     font-size: 55px;
     font-family: 'OCR A';
+
   }
 
   .color-transition{
@@ -65,7 +73,7 @@ video {
 
   .sub-container {
     background: rgb(26, 23, 23);
-    height: 55vh;
+    height: 45vh;
     color: #21c951;
     width: 40%;
     text-align: center;
@@ -75,6 +83,8 @@ video {
     align-items: center;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 100px;
+    margin-top: 25px;
   }
 
   .sub-container img {

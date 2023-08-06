@@ -145,3 +145,23 @@
     padding-left: -1px;
     margin-bottom: 200px;
 }
+
+.footer-investment {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    background: rgb(26, 23, 23);
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    object-fit: contain;
+    margin-top: -10px;
+  }
+
+  .footer-investment > h4 {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    color: rgb(33, 201, 81);
+    font-size: 20px;
+    font-family: 'OCR A';
+    padding-top: 10px;
+  }
+

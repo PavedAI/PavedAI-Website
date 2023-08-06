@@ -6,8 +6,8 @@ function Products(){
     return(
         <div>
         <div className='first-container-products'>
-            <h1>Introducing P1.</h1>
-            <p>Taking our first steps toward a more robust future.</p>
+            <h1>Introducing Prototype1.</h1>
+            <p>A quick summary on how our robot (abbreviated P1) operates.</p>
         </div>
 
         <div className='steps-container'>
@@ -26,13 +26,13 @@ function Products(){
             <img
                 src={require("../assets/raspi.jpg")}
                 alt="Logo"
-                style={{ width: "15%", height: '28%', marginTop: '150px'}} // Adjust the width as needed
+                style={{ width: "15%", height: '26%', marginTop: '150px'}} // Adjust the width as needed
             />
 
             <img
                 src={require("../assets/coral.jpg")}
                 alt="Logo"
-                style={{ width: "10%", height: '28%', marginTop: '375px', marginLeft: '20px'}} // Adjust the width as needed
+                style={{ maxWidth: "10%", maxHeight: '28%', marginTop: '375px', marginLeft: '20px'}} // Adjust the width as needed
             />
             </div>
 
@@ -43,15 +43,70 @@ function Products(){
             />
 
             <div className='middle-steps-container'>
-                <h2>If we find a crack, we then...</h2>
+                <h2>After we find an anomaly...</h2>
             </div>
             
+            <div className='middle-steps-container'>
+            <img
+                src={require("../assets/ProductsPanel5.jpg")}
+                alt="Logo"
+                style={{ width: "100%", marginTop: '-25px'}} // Adjust the width as needed
+            />
+            </div>
 
             <div className='steps-container-US'>
                 <div className='steps-content-US'>
                     <h2>2. Go over the crack with an ultrasonic sensor</h2>
                     <p>We use an ultrasonic sensor to gauge the crack's depth and volume.</p>
                 </div>
+            </div>
+
+            <div className='steps-container-US'>
+                <div className='steps-content-US'>
+                    <h2>3. Clean the crack with compressed air</h2>
+                    <p>Before we proceed, we must remove any dirt or other debris to ensure that our polymer will bind and solidify as intended.</p>
+                </div>
+            </div>
+
+            <div className='steps-container-US'>
+                <div className='steps-content-US'>
+                    <h2>4. Mist the crack</h2>
+                    <p>Misting allows our polymer to stick to the inside of the crack better.</p>
+                </div>
+            </div>
+
+            <div className='steps-container-US'>
+                <div className='steps-content-US'>
+                    <h2>5. Extrude eco-friendly fillig into the crack</h2>
+                    <p>Finally, we use an auger and a funnel to extrude our crack sealant.</p>
+                </div>
+            </div>
+
+            <div className='steps-container-US'>
+                <div className='steps-content-US'>
+                    <h2>And repeat!</h2>
+                </div>
+            </div>
+
+            <img
+                src={require("../assets/ProductsPanel7.jpg")}
+                alt="Logo"
+                style={{ width: "100%", marginTop: '-200px'}} // Adjust the width as needed
+            />
+
+            <div className='bottom-container-products'>
+                <h1>The P1 Dash: an interactive user experience.</h1>
+                <p>To tie our user experience together, we've also created an informative dashboard.</p>
+            </div>
+
+            <img
+                src={require("../assets/MockDash.jpg")}
+                alt="Logo"
+                style={{ width: "100%", marginTop: '-50px'}} // Adjust the width as needed
+            />
+
+            <div className='footer-products'>
+                <h4>Copyright © 2023 PavedAI. All rights reserved.</h4>
             </div>
 
         </div>

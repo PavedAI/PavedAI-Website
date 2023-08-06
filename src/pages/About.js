@@ -58,7 +58,10 @@ function About(){
             <div className='custom-scrollbar'>
 
             </div>
-            
+
+        <div className='footer-investment'>
+            <h4>Copyright © 2023 PavedAI. All rights reserved.</h4>
+        </div>
         </div>
     )
 }

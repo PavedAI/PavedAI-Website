@@ -98,6 +98,27 @@
     border-radius: 25px;
 }
 
+
+.footer-about {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    background: rgb(26, 23, 23);
+    height: 20vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    object-fit: contain;
+    margin-top: -10px;
+  }
+
+  .footer-about > h4 {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    color: rgb(33, 201, 81);
+    font-size: 20px;
+    font-family: 'OCR A';
+    padding-top: 90px;
+  }
+
+
 /* ::-webkit-scrollbar {
     width: 16px;
 }
