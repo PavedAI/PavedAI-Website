@@ -88,6 +88,9 @@ function Home(){
             </p>
         </div>
         
+        <div className='footer-home'>
+                <h4>Copyright © 2023 PavedAI. All rights reserved.</h4>
+            </div>
         </div>
         
     )
