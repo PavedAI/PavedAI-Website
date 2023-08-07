@@ -6,7 +6,7 @@ import './Home.css';
 
 function Home(){
     return(
-        <div>
+        <div className='rigid'>
         <div className='first-container'>
             <h1>
                 Cleansing the world of cracked concrete.

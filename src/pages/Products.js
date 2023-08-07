@@ -4,7 +4,7 @@ import './Products.css';
 
 function Products(){
     return(
-        <div>
+        <div className='rigid'>
         <div className='first-container-products'>
             <h1>Introducing Prototype1.</h1>
             <p>A quick summary on how our robot (abbreviated P1) operates.</p>

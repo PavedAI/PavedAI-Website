@@ -11,6 +11,10 @@ video {
   width: 80%;
   height: auto;
 }
+
+.rigid {
+  max-width: 100vw;
+}
   
   .first-container {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */

@@ -193,3 +193,11 @@
     padding-top: 90px;
   }
 
+
+
+  @media screen and (min-width: 2001px)  {
+
+    .steps-content-US {
+      margin-left: 500px;
+    }
+  }
