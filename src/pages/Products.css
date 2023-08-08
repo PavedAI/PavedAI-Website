@@ -24,6 +24,13 @@
     margin-top: 20px;
   }
 
+  .ProductsPanel3 {
+    background-image: url('../assets/ProductsPanel3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+  }
+
 
   .steps-container{
     background: rgb(26, 23, 23);
@@ -55,7 +62,7 @@
     color: #21c951;
     font-size: 40px;
     font-family: 'OCR A';
-    margin-left: 350px;
+    margin-left: 20vw;
     margin-bottom: 30px;
     margin-top: -15px;
   }
@@ -125,12 +132,26 @@
     padding-top: 20px;
   }
 
-  .steps-content-US > h3 {
+  .steps-content-US-bot {
+    background: rgb(26, 23, 23);
+    height: 20vh;
+    color: #21c951;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 35vw;
+    margin-right: 100px;
+  }
+
+  .steps-content-US-bot > h3 {
     color: #21c951;
     font-size: 40px;
     font-family: 'OCR A';
     padding-top: 20px;
-    margin-bottom: -10px;
+    
   }
   
   

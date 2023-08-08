@@ -39,20 +39,20 @@ function Products(){
             <img
                 src={require("../assets/ProductsPanel3.jpg")}
                 alt="Logo"
-                style={{ width: "100%", marginTop: '-135px'}} // Adjust the width as needed
+                style={{ width: "100%", 
+                        marginTop: '-135px', 
+                        transformOrigin: "center",
+                        display: "flex"}} // Adjust the width as needed
             />
+
+            <div className='ProductsPanel3'>
+                
+            </div>
 
             <div className='middle-steps-container'>
                 <h2>After we find an anomaly...</h2>
             </div>
             
-            <div className='middle-steps-container'>
-            <img
-                src={require("../assets/ProductsPanel5.jpg")}
-                alt="Logo"
-                style={{ width: "100%", marginTop: '-25px'}} // Adjust the width as needed
-            />
-            </div>
 
             <div className='steps-container-US'>
                 <div className='steps-content-US'>
@@ -83,8 +83,8 @@ function Products(){
             </div>
 
             <div className='steps-container-US'>
-                <div className='steps-content-US'>
-                    <h2>And repeat!</h2>
+                <div className='steps-content-US-bot'>
+                    <h3>And repeat!</h3>
                 </div>
             </div>
 

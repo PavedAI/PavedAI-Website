@@ -46,7 +46,7 @@ function About(){
                     <img
                     src={require("../assets/vivek.jpg")}
                     alt="Logo"
-                    style={{ width: '150px', height: 'auto', margin: '25px'}} // Adjust the width as needed
+                    style={{ width: '145px', height: 'auto', margin: '25px'}} // Adjust the width as needed
                     />
                     <div className='rounded-subcontainer'>
                         <h2>Vivek Patel</h2>
