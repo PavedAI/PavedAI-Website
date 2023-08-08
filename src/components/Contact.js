@@ -14,7 +14,7 @@ export const ContactUs = () => {
           console.log(result.text);
           window.location.reload()
       }, (error) => {
-          console.log(error.text);
+          console.log(error.text); 
       });
   };
 

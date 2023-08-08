@@ -89,8 +89,15 @@ function Home(){
         </div>
         
         <div className='footer-home'>
-                <h4>Copyright © 2023 PavedAI. All rights reserved.</h4>
-            </div>
+            <h4>Copyright © 2023 PavedAI. All rights reserved.</h4>
+            <a href="https://www.linkedin.com/company/pavedairobotics" target="_blank" rel="noopener noreferrer">
+                    <img
+                    src={require("../assets/linkedindark.png")}
+                    alt="Logo"
+                    style={{ width: "1.9%", marginTop: '20px'}} // Adjust the width as needed
+                    />
+            </a>
+        </div>
         </div>
         
     )

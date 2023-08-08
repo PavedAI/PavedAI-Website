@@ -59,8 +59,15 @@ function About(){
 
             </div>
 
-        <div className='footer-investment'>
+        <div className='footer-about'>
             <h4>Copyright © 2023 PavedAI. All rights reserved.</h4>
+            <a href="https://www.linkedin.com/company/pavedairobotics" target="_blank" rel="noopener noreferrer">
+                    <img
+                    src={require("../assets/linkedin.jpg")}
+                    alt="Logo"
+                    style={{ width: "1.9%", marginTop: '20px'}} // Adjust the width as needed
+                    />
+                </a>
         </div>
         </div>
     )

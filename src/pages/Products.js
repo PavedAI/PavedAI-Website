@@ -50,7 +50,7 @@ function Products(){
             </div>
 
             <div className='middle-steps-container'>
-                <h2>After we find an anomaly...</h2>
+                <h2>After we find an anomaly we...</h2>
             </div>
             
 
@@ -107,6 +107,13 @@ function Products(){
 
             <div className='footer-products'>
                 <h4>Copyright © 2023 PavedAI. All rights reserved.</h4>
+                <a href="https://www.linkedin.com/company/pavedairobotics" target="_blank" rel="noopener noreferrer">
+                    <img
+                    src={require("../assets/linkedin.jpg")}
+                    alt="Logo"
+                    style={{ width: "1.9%", marginTop: '20px'}} // Adjust the width as needed
+                    />
+                </a>
             </div>
 
         </div>
