@@ -49,7 +49,7 @@ function Navbar() {
               </Link>
             </li>
 
-            <li>
+            <li className='nav-item'>
               <Link
                 to='/invest'
                 className='nav-links'

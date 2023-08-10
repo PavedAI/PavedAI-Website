@@ -53,6 +53,7 @@
   .nav-item {
     height: 80px;
     font-family: 'OCR A';
+    margin-left: 20px;
   }
   
   .nav-links {
