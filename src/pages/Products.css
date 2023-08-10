@@ -109,6 +109,7 @@
     font-family: 'OCR A';
     line-height: 1.5;
     margin-bottom: 20px;
+    max-width: 750px;
   }
 
   .steps-content-US {
@@ -216,9 +217,22 @@
 
 
 
-  @media screen and (min-width: 2001px)  {
+  @media screen and (min-width: 1920px)  {
 
     .steps-content-US {
       margin-left: 500px;
     }
+
+    .steps-container img{
+      border-radius: 25px;
+    }
+
+    .steps-container{
+      background: rgb(26, 23, 23);
+      height: 80vh;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+    }
+  
   }

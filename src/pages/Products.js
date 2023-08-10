@@ -42,15 +42,12 @@ function Products(){
                 style={{ width: "100%", 
                         marginTop: '-135px', 
                         transformOrigin: "center",
-                        display: "flex"}} // Adjust the width as needed
+
+                        display: "block"}} // Adjust the width as needed
             />
 
-            <div className='ProductsPanel3'>
-                
-            </div>
-
             <div className='middle-steps-container'>
-                <h2>After we find an anomaly we...</h2>
+                <h2>If we find an anomaly, we...</h2>
             </div>
             
 
@@ -77,7 +74,7 @@ function Products(){
 
             <div className='steps-container-US'>
                 <div className='steps-content-US'>
-                    <h2>5. Extrude eco-friendly fillig into the crack</h2>
+                    <h2>5. Extrude eco-friendly filling into the crack</h2>
                     <p>Finally, we use an auger and a funnel to extrude our crack sealant.</p>
                 </div>
             </div>
@@ -91,7 +88,7 @@ function Products(){
             <img
                 src={require("../assets/ProductsPanel7.jpg")}
                 alt="Logo"
-                style={{ width: "100%", marginTop: '-200px'}} // Adjust the width as needed
+                style={{ width: "100%", marginTop: '-200px', block:'block'}} // Adjust the width as needed
             />
 
             <div className='bottom-container-products'>
