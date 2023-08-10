@@ -17,7 +17,7 @@ function Navbar() {
           <img
         src={require("../assets/PavedAILogo.png")}
         alt="Logo"
-        style={{ width: "20%", height: "auto" }} // Adjust the width as needed
+        style={{ width: "15%", height: "auto" }} // Adjust the width as needed
       />
             <i class='fab fa-typo3' />
           </Link>
