@@ -190,6 +190,7 @@
         font-size: 45px;
         font-family: 'OCR A Extended V2';
         margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .info-subcontainer {
@@ -228,7 +229,7 @@
         font-size: 16px;
         font-family: 'OCR A Extended V2';
         margin-top: 20px;
-        margin-bottom: 80px;
+        margin-bottom: 215px;
         line-height: 1.5;
         padding-right: 30px;
         max-width: 700px;
