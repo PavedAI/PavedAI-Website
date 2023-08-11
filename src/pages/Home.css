@@ -248,7 +248,7 @@ video {
 
     .bottom-container {
       /* Adjust the height for bigger screens */
-      height: 50vh;
+      height: 40vh;
     }
 
     .footer-home {
@@ -294,7 +294,7 @@ video {
       line-height: 1.5;
       margin-left: 180px;
       margin-right: 180px;
-      margin-bottom: 30px;
+      margin-bottom: 0px;
     }
   }
   

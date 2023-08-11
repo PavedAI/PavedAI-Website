@@ -36,6 +36,7 @@ function Products(){
             />
             </div>
 
+            <div className='img-container'>
             <img
                 src={require("../assets/ProductsPanel3.jpg")}
                 alt="Logo"
@@ -45,6 +46,7 @@ function Products(){
 
                         display: "block"}} // Adjust the width as needed
             />
+            </div>
 
             <div className='middle-steps-container'>
                 <h2>If we find an anomaly, we...</h2>

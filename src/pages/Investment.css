@@ -184,6 +184,14 @@
 
 
 @media screen and (max-height: 800px) {
+
+    .first-container-investment > h1 {
+        color: rgb(33, 201, 81);
+        font-size: 45px;
+        font-family: 'OCR A Extended V2';
+        margin-top: 20px;
+    }
+
     .info-subcontainer {
         background: rgb(26, 23, 23);
         height: 80vh;
@@ -205,6 +213,26 @@
         text-align: center;
         object-fit: contain;
         margin-top: 100px;
+    }
+
+    .info-subcontainer > h2 {
+        color: rgb(33, 201, 81);
+        font-size: 40px;
+        font-family: 'OCR A Extended V2';
+        margin-top: -80px;
+        padding-right: 20px;
+    }
+    
+    .info-subcontainer > p {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-family: 'OCR A Extended V2';
+        margin-top: 20px;
+        margin-bottom: 80px;
+        line-height: 1.5;
+        padding-right: 30px;
+        max-width: 700px;
+        margin-left: -30px;
     }
   }
   
