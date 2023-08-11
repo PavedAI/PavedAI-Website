@@ -253,6 +253,41 @@ video {
       object-fit: contain;
       margin-top: -10px;
     }
+
+    .sub-container > h2 {
+      color: #21c951;
+      font-size: 30px;
+      font-family: 'OCR A';
+      padding-bottom: 30px;
+      padding-top: 20px;
+    }
+    
+    .sub-container > p {
+      margin-top: 8px;
+      color: #fff;
+      font-size: 15px;
+      font-family: 'OCR A';
+      line-height: 1.5;
+    }
+
+    .bottom-container > h2 {
+      color: rgb(26, 23, 23);
+      font-size: 30px;
+      font-family: 'OCR A';
+      padding-bottom: 30px;
+      padding-top: 50px;
+    }
+    
+    .bottom-container > p {
+      margin-top: 8px;
+      color: rgb(26, 23, 23);
+      font-size: 15px;
+      font-family: 'OCR A';
+      line-height: 1.5;
+      margin-left: 180px;
+      margin-right: 180px;
+      margin-bottom: 30px;
+    }
   }
   
   
