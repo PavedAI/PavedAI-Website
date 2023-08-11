@@ -150,3 +150,17 @@
 
     
 }
+
+
+@media screen and (max-height: 800px) {
+    .footer-about {
+        /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+        background: rgb(26, 23, 23);
+        height: 30vh;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        object-fit: contain;
+        margin-top: -10px;
+      }
+  }
