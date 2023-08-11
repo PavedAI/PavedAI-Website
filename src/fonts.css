@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "OCR A Extended V2";
+    src: url("https://db.onlinewebfonts.com/t/971c473a19b6bba1059ba6add6af78d7.eot");
+    src: url("https://db.onlinewebfonts.com/t/971c473a19b6bba1059ba6add6af78d7.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/971c473a19b6bba1059ba6add6af78d7.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/971c473a19b6bba1059ba6add6af78d7.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/971c473a19b6bba1059ba6add6af78d7.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/971c473a19b6bba1059ba6add6af78d7.svg#OCR A Extended V2")format("svg");
+}

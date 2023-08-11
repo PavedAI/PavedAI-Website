@@ -153,6 +153,24 @@
 
 
 @media screen and (max-height: 800px) {
+    .first-container-about > h1 {
+        color: rgb(26, 23, 23);
+        font-size: 45px;
+        font-family: 'OCR A';
+        margin-top: 100px;
+    }
+    
+    .first-container-about > p {
+        color: rgb(26, 23, 23);
+        font-size: 15px;
+        font-family: 'OCR A';
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+        line-height: 1.5;
+        padding-bottom: 80px;
+    }
+
     .footer-about {
         /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
         background: rgb(26, 23, 23);
