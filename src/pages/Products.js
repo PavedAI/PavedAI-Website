@@ -36,7 +36,7 @@ function Products(){
             />
             </div>
 
-            <div className='img-container'>
+            <div className='img-container-3'>
             <img
                 src={require("../assets/ProductsPanel3.jpg")}
                 alt="Logo"
@@ -87,11 +87,13 @@ function Products(){
                 </div>
             </div>
 
+            <div className='img-container-5'>
             <img
                 src={require("../assets/ProductsPanel7.jpg")}
                 alt="Logo"
                 style={{ width: "100%", marginTop: '-200px', block:'block'}} // Adjust the width as needed
             />
+            </div>
 
             <div className='bottom-container-products'>
                 <h1>The P1 Dash: an interactive user experience.</h1>
@@ -106,6 +108,8 @@ function Products(){
 
             <div className='footer-products'>
                 <h4>Copyright © 2023 PavedAI. All rights reserved.</h4>
+
+                <div className='img-container-7'>
                 <a href="https://www.linkedin.com/company/pavedairobotics" target="_blank" rel="noopener noreferrer">
                     <img
                     src={require("../assets/linkedin.jpg")}
@@ -113,6 +117,7 @@ function Products(){
                     style={{ width: "1.9%", marginTop: '20px'}} // Adjust the width as needed
                     />
                 </a>
+                </div>
             </div>
 
         </div>

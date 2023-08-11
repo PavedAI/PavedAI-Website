@@ -183,4 +183,12 @@
         object-fit: contain;
         margin-top: -10px;
       }
+
+      .team-title-container > h1 {
+        color: rgb(33, 201, 81);
+        font-size: 45px;
+        font-family: 'OCR A Extended V2';
+        padding-top: 70px;
+        text-align: center;
+    }
   }

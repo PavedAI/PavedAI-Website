@@ -26,7 +26,15 @@
     margin-top: 20px;
   }
 
-  .img-container {
+  .img-container-3 {
+    margin-top: 0px;
+  }
+
+  .img-container-5 {
+    margin-top: 0px;
+  }
+
+  .img-container-7 {
     margin-top: 0px;
   }
 
@@ -251,11 +259,10 @@
     font-family: 'OCR A Extended V2';
     margin-top: 20px;
   }
-
   .first-container-products {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
     background: rgb(26, 23, 23);
-    height: 60vh;
+    height: 35vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -278,6 +285,21 @@
     margin-top: 20px;
   }
 
+  .steps-container{
+    background: rgb(26, 23, 23);
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .steps-container > h2{
+    color: #21c951;
+    font-size: 30px;
+    font-family: 'OCR A Extended V2';
+  }
+
+
   .middle-steps-container{
     background: rgb(26, 23, 23);
     height: 20vh;
@@ -289,8 +311,132 @@
     padding-left: 100px;
   }
 
-  .img-container {
+  .middle-steps-container > h2 {
+    color: #21c951;
+    font-size: 30px;
+    font-family: 'OCR A Extended V2';
+    margin-left: 20vw;
+    margin-bottom: 30px;
+    margin-top: -15px;
+  }
+
+
+  .img-container-3 {
+    margin-top: 135px;
+    margin-bottom: -50px;
+  }
+
+  .img-container-5 {
     margin-top: 100px;
+  }
+
+  /* .img-container-7 {
+    margin-top: 100px;
+  } */
+
+  .steps-content-US-bot > h3 {
+    color: #21c951;
+    font-size: 30px;
+    font-family: 'OCR A Extended V2';
+    padding-top: 20px;
+    
+  }
+
+  .steps-content-US > h2 {
+    color: #21c951;
+    font-size: 30px;
+    font-family: 'OCR A Extended V2';
+    padding-top: 20px;
+  }
+  
+  .steps-content-US > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'OCR A Extended V2';
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding-top: 30px;
+  }
+
+  .steps-content {
+    background: rgb(26, 23, 23);
+    height: 20vh;
+    color: #21c951;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 100px;
+  }
+
+  .steps-content > h2 {
+    color: #21c951;
+    font-size: 30px;
+    font-family: 'OCR A Extended V2';
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  
+  .steps-content > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'OCR A Extended V2';
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 750px;
+  }
+
+  .bottom-container-products {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    background: rgb(26, 23, 23);
+    height: 50vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    object-fit: contain;
+
+  }
+
+  .bottom-container-products > h1 {
+    color: #21c951;
+    font-size: 40px;
+    font-family: 'OCR A Extended V2';
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  .bottom-container-products > p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'OCR A Extended V2';
+    margin-bottom: 30px;
+  }
+
+  .footer-products {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    background: rgb(26, 23, 23);
+    height: 30vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    object-fit: contain;
+    margin-top: -10px;
+  }
+
+  .footer-products > h4 {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    color: rgb(33, 201, 81);
+    font-size: 20px;
+    font-family: 'OCR A Extended V2';
+    padding-top: 90px;
   }
   
 }
