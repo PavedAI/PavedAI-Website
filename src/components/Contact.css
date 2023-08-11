@@ -1,3 +1,4 @@
+@import '../fonts.css';
 
 .contactus-form {
     width: 100%;
@@ -6,7 +7,7 @@
     align-items: center;
     justify-content: center;
     color: rgb(33, 201, 81);
-    font-family: 'OCR';
+    font-family: 'OCR A Extended V2';
     display: flex;
     flex-direction: column;
     margin-bottom: -60px;
@@ -17,7 +18,7 @@
     border: 2px solid rgb(33, 201, 81);
     width: 500px;
     height: 40px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-top: 50px;
     margin-bottom: 20px;
     display: flex;
@@ -31,7 +32,7 @@
     border: 2px solid rgb(33, 201, 81);
     width: 500px;
     height: 40px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
@@ -46,7 +47,7 @@
     border: 2px solid rgb(33, 201, 81);
     width: 500px;
     height: 40px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-left: 50px;
     margin-right: 50px;
     display: flex;
@@ -61,7 +62,7 @@
     border: 2px solid rgb(33, 201, 81);
     width: 500px;
     height: 100px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin: 50px;
     display: flex;
     text-align: left;
@@ -77,7 +78,7 @@
     border: 2px solid rgb(33, 201, 81);
     width: 50px;
     height: 20px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-left: 495px;
     display: flex;
     text-align: left;

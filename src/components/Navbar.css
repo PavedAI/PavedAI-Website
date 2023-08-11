@@ -1,3 +1,5 @@
+@import '../fonts.css';
+
 .navbar {
     background: rgba(28, 27, 27);
     height: 60px;
@@ -5,7 +7,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     position: sticky;
     top: 0;
     z-index: 999;
@@ -17,7 +19,7 @@
     align-items: center;
     height: 80px;
     max-width: 1500px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
   }
   
   .navbar-logo {
@@ -27,7 +29,7 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     display: flex;
     align-items: center;
   }
@@ -35,7 +37,7 @@
   .fa-typo3 {
     margin-left: 0.5rem;
     font-size: 1.8rem;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
   }
   
   .nav-menu {
@@ -47,12 +49,12 @@
     width: 60vw;
     justify-content: end;
     margin-right: 2rem;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
   }
   
   .nav-item {
     height: 80px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-left: 20px;
   }
   
@@ -64,7 +66,7 @@
     padding: 8px 1rem;
     padding-bottom: -10px;
     height: 100%;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
 
   }
   
@@ -138,14 +140,14 @@
       right: 0;
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
-      font-family: 'OCR A';
+      font-family: 'OCR A Extended V2';
       cursor: pointer;
     }
   
     .fa-times {
       color: #fff;
       font-size: 2rem;
-      font-family: 'OCR A';
+      font-family: 'OCR A Extended V2';
     }
   
     .nav-links-mobile {
@@ -156,7 +158,7 @@
       width: 80%;
       text-decoration: none;
       font-size: 1.5rem;
-      font-family: 'OCR A';
+      font-family: 'OCR A Extended V2';
       background-color: transparent;
       color: #fff;
       padding: 14px 20px;

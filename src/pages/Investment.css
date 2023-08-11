@@ -1,3 +1,5 @@
+@import '../fonts.css';
+
 .first-container-investment {
     background: rgb(26, 23, 23);
     height: 40vh;
@@ -12,7 +14,7 @@
 .first-container-investment > h1 {
     color: rgb(33, 201, 81);
     font-size: 60px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-top: 20px;
 }
 
@@ -43,7 +45,7 @@
 .info-subcontainer > h2 {
     color: rgb(33, 201, 81);
     font-size: 50px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-top: -80px;
     padding-right: 20px;
 }
@@ -51,7 +53,7 @@
 .info-subcontainer > p {
     color: rgb(255, 255, 255);
     font-size: 20px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-top: 20px;
     margin-bottom: 80px;
     line-height: 1.5;
@@ -67,7 +69,7 @@
     align-items: center;
     justify-content: center;
     color: rgb(33, 201, 81);
-    font-family: 'OCR';
+    font-family: 'OCR A Extended V2';
 }
 
 .form{
@@ -83,7 +85,7 @@
     margin: 10px;
     padding: 15px;
     background:rgb(26, 23, 23);
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     font-size: 16;
     outline:rgb(33, 201, 81);
 }
@@ -93,7 +95,7 @@
     border: 2px solid rgb(33, 201, 81);
     width: 500px;
     height: 40px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin: 50px;
     display: flex;
     text-align: left;
@@ -107,7 +109,7 @@
     border: 2px solid rgb(33, 201, 81);
     width: 500px;
     height: 40px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-left: 50px;
     margin-right: 50px;
     display: flex;
@@ -122,7 +124,7 @@
     border: 2px solid rgb(33, 201, 81);
     width: 500px;
     height: 100px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin: 50px;
     display: flex;
     text-align: left;
@@ -137,7 +139,7 @@
     border: 2px solid rgb(33, 201, 81);
     width: 50px;
     height: 20px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-left: 495px;
     display: flex;
     text-align: left;
@@ -162,7 +164,7 @@
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
     color: rgb(33, 201, 81);
     font-size: 20px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     padding-top: 10px;
   }
 
@@ -170,7 +172,7 @@
     .info-subcontainer > p {
         color: rgb(255, 255, 255);
         font-size: 20px;
-        font-family: 'OCR A';
+        font-family: 'OCR A Extended V2';
         margin-top: 20px;
         margin-bottom: 80px;
         line-height: 1.5;

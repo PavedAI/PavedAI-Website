@@ -1,3 +1,5 @@
+@import '../fonts.css';
+
 .NotFoundContainer {
     height: 40vh;
     width: 100%;
@@ -11,7 +13,7 @@
 .NotFoundContainer h1 {
     color: rgb(26, 23, 23);
     font-size: 40px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-top: 20px;
     max-width: 1500px;
 }
@@ -19,7 +21,7 @@
 .NotFoundContainer p {
     color: rgb(26, 23, 23);
     font-size: 20px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-top: 50px;
     line-height: 1.5;
     padding-right: 30px;

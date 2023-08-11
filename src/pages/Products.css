@@ -1,3 +1,5 @@
+@import '../fonts.css';
+
 .first-container-products {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
     background: rgb(26, 23, 23);
@@ -13,14 +15,14 @@
   .first-container-products > h1 {
     color: #21c951;
     font-size: 60px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-top: 60px;
   }
 
   .first-container-products > p {
     color: rgb(255, 255, 255);
     font-size: 20px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-top: 20px;
   }
 
@@ -43,7 +45,7 @@
   .steps-container > h2{
     color: #21c951;
     font-size: 40px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
   }
 
 
@@ -61,7 +63,7 @@
   .middle-steps-container > h2 {
     color: #21c951;
     font-size: 40px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-left: 20vw;
     margin-bottom: 30px;
     margin-top: -15px;
@@ -97,7 +99,7 @@
   .steps-content > h2 {
     color: #21c951;
     font-size: 40px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     padding-bottom: 30px;
     padding-top: 20px;
   }
@@ -106,7 +108,7 @@
     margin-top: 8px;
     color: #fff;
     font-size: 20px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     line-height: 1.5;
     margin-bottom: 20px;
     max-width: 750px;
@@ -129,7 +131,7 @@
   .steps-content-US > h2 {
     color: #21c951;
     font-size: 40px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     padding-top: 20px;
   }
 
@@ -150,7 +152,7 @@
   .steps-content-US-bot > h3 {
     color: #21c951;
     font-size: 40px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     padding-top: 20px;
     
   }
@@ -160,7 +162,7 @@
     margin-top: 8px;
     color: #fff;
     font-size: 18px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     line-height: 1.5;
     margin-bottom: 20px;
     padding-top: 30px;
@@ -181,7 +183,7 @@
   .bottom-container-products > h1 {
     color: #21c951;
     font-size: 40px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     margin-top: -10px;
     margin-left: 40px;
     margin-right: 40px;
@@ -192,7 +194,7 @@
   .bottom-container-products > p {
     color: rgb(255, 255, 255);
     font-size: 20px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
   }
 
 
@@ -211,7 +213,7 @@
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
     color: rgb(33, 201, 81);
     font-size: 20px;
-    font-family: 'OCR A';
+    font-family: 'OCR A Extended V2';
     padding-top: 90px;
   }
 
